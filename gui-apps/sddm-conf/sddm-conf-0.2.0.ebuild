@@ -12,7 +12,7 @@ SRC_URI="https://github.com/qtilities/${PN}/archive/refs/tags/${PV}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-sLOT="0"
+SLOT="0"
 
 RDEPEND="
 	dev-qt/qtbase
@@ -23,7 +23,7 @@ DEPEND="${RDEPEND} "
 BDEPEND="
 	dev-build/cmake
 	dev-qt/qttools
-	dev-build/qtilitools
+	dev-build/qtilitools:w
 	dev-qt/linguist-tools
 "
 S="${WORKDIR}/${PN}-0.2.0"
