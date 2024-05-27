@@ -23,7 +23,7 @@ DEPEND="${RDEPEND} "
 BDEPEND="
 	dev-build/cmake
 	dev-qt/qttools
-	dev-build/qtilitools:w
+	dev-build/qtilitools
 	dev-qt/linguist-tools
 "
 S="${WORKDIR}/${PN}-0.2.0"
