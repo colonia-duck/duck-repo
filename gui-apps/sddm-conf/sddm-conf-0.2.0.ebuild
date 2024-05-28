@@ -12,7 +12,6 @@ SRC_URI="https://github.com/qtilities/${PN}/archive/refs/tags/${PV}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-SLOT="0"
 
 RDEPEND="
 	dev-qt/qtbase
